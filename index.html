@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="style.css" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900"> 
+
+    <title>Guruh Allim | Web Developer</title>
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-second pt-4">
+        <div class="container">
+            <!-- Bagian kiri -->
+            <a class="navbar-brand logo pt-2 text-white text-center fw-bold" href="#"><u>GHA</u></a>
+
+            <!-- Bagian kanan -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link secondary me-5" href="#profil">Profil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link secondary me-5" href="#kemampuan">Kemampuan</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link secondary me-5" href="#pengalaman">Pengalaman</a>
+                </li>
+                <li class="nav-item bg-first hubungi p-1 px-3">
+                    <button type="button" class="btn">
+                        <a href="mailto:aguruh734@gmail.com" class="text-decoration-none text-white">
+                            Hubungi saya 
+                        </a>
+                    </button>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Profil -->
+    <div id="profil" class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4 col-lg-7">
+                    <!-- Nama lengkap, deskripsi, tombol "Unduh CV" -->
+                    <hr class="hr-1" style="height: 10px;">
+                    <h1 class="title-1 mb-4 fw-bolder">Guruh Hizbullah Allim</h1>
+                    <p class="secondary description">Guruh adalah seorang Tuli dan salah satu bekerja sebagai Front End Developer.
+                        Saya tinggal di Yogyakarta dan bekerja di salah satu perusahaan swasta. Saya sangat senang mempelajari 
+                        website untuk memajukan perkembangan IT di Indonesia.</p>
+                    <a href="assets/CV Guruh Hizbullah Allim.pdf">
+                        <button type="button" class="btn btn-primary mt-4">Unduh CV</button>
+                    </a>
+                </div>
+
+                <div class="col-sm-0 col-md-8 col-lg-5 hidden-sm d-none d-md-flex justify-content-end">
+                    <!-- Foto -->
+                    <img src="assets/guruha.png" class="rounded-circle profile-picture" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quotes -->
+    <div class="container-fluid d-flex justify-content-center" id="quote-container">
+        <p class="text-left text-wrap text-white py-5 px-3" id="quote"><b>"“Ambillah risiko yang lebih besar dari apa yang dipikirkan orang lain aman. 
+            Berilah perhatian lebih dari apa yang orang lain pikir bijak. Bermimpilah lebih dari apa 
+            yang orang lain pikir masuk akal”</b> - <u>Claude T. Bissell</u></p> 
+    </div>
+
+    <!-- Kemampuan -->
+    <div id="kemampuan">
+        <div class="container-fluid py-5" id="skill-main-container">
+            <div class="row">
+                <!-- Gambar kemampuan -->
+                <div class="col-xl-6 col-sm-12 d-flex justify-content-start align-items-center py-5">
+                    <img src="assets/kemampuan.jpg" id="skill-picture" alt="">
+                </div>
+
+                <!-- Daftar kemampuan -->
+                <div class="col-xl-6 col-sm-12 d-flex justify-content-xl-center justify-content-sm-start align-items-center px-5">
+                    <div id="skills-container">
+                        <!-- Judul kemampuan -->
+                        <hr class="hr-3" style="height: 10px;">
+                        <h1 class="title-2">Kemampuan</h1>
+
+                        <!-- Baris kemampuan -->
+                        <div class="d-flex align-items-center py-3">
+                            <img src="assets/html-icon.png" class="skill-item-picture" alt="">
+                            <p class="skill-title ps-3">HTML</p>
+                        </div>
+                        <div class="d-flex align-items-center py-3">
+                            <img src="assets/css-icon.png" class="skill-item-picture" alt="">
+                            <p class="skill-title ps-3">CSS</p>
+                        </div>
+                        <div class="d-flex align-items-center py-3">
+                            <img src="assets/bootstrap-icon.png" class="skill-item-picture" alt="">
+                            <p class="skill-title ps-3">Bootstrap</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pengalaman -->
+    <hr id="pengalaman" class="hr-2 me-auto ms-auto" />
+    <div class="container px-4 pengalaman mt-5">
+        <h1 class="title-2 text-center mb-5" id="judulPengalaman">Pengalaman</h1>
+        <div class="row">
+            <div class="col-xl-4 col-lg-12 mb-4">
+                <div class="card border-0 h-100">
+                    <img src="Assets/pengalaman-1.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Lomba Pembuatan Website 2022</h5>
+                        <p class="card-text">
+                            Pada lomba ini saya mendapatkan juara 1 untuk pembuatan website.
+                        Saya banyak belajar mengenai HTML, CSS, dan framework Bootstrap.
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-12 mb-4">
+                <div class="card border-0 h-100">
+                    <img src="Assets/pengalaman-2.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Guruh Tech Company</h5>
+                        <p class="card-text">
+                            Saya bekerja pada perusahaan ini sebagai front-end developer.
+                        Saya banyak menangani pembuatan website dan membuatnya sesuai keinginan klien.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-12 mb-4">
+                <div class="card border-0 h-100">
+                    <img src="Assets/pengalaman-3.png" class="card-img-top" alt="..." />
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Deaf to Dev : Batch 3</h5>
+                        <p class="card-text">
+                            Saya mengikuti kursus Deaf to Dev yang dimana merupakan kursus pertama saya. Di sini Saya
+                        belajar banyak hal mengenai pemrograman website dan mendapat pengalaman-pengalaman baru.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="p-3">
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    Copyright 2024 Guruh Hizbullah Allim. All rights reserved.
+                </div>
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <a href="https://linkedin.com">
+                        <img src="assets/linkedin.png" alt="">
+                    </a>
+                    <a href="https://instagram.com">
+                        <img src="assets/instagram.png" alt="">
+                    </a>
+                    <a href="https:github.com/">
+                        <img src="assets/github.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
